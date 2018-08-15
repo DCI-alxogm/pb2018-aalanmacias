@@ -14,4 +14,4 @@ int main()
 
 }
 
-/*termine de escribir el programa*/
+/*termine de escribir el programa*/./
