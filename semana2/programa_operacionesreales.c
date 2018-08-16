@@ -2,7 +2,7 @@
 e=(a+b)*c/d
 e=((a+b)*c)/d
 e=(a+b)*c/d
-e=a+(b+c)/d */
+e=a+(b*c)/d */
 
  #include<stdio.h>
  
@@ -36,7 +36,7 @@ e=a+(b+c)/d */
    printf("el resultado es %f\n",resultado3);
 
    printf("ahora realizaremos la sigiente operación: e=a+(b+c)/d\n");
-     resultado4 = (a+(b+c)/d);
+     resultado4 = (a+(b*c)/d);
    printf("el resultado es %f\n",resultado4);
 
   return 0;
