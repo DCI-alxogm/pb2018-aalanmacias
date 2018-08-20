@@ -17,6 +17,7 @@ int main()
  Q=acos(z/r);
  Y=atan(y/x);
  printf("la coordenada de la forma (r,θ,φ) es: (%f,%f,%f) \n", r, Q, Y);
+ printf("la coordenada cartesiana que introduciste en un inicio fue:(%f,%f,%f)\n", x,y,z);
  
  return 0;
 
