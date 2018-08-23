@@ -1,1 +1,0 @@
-/*segundo programa de ejemplo 
