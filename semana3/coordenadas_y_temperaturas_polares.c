@@ -64,7 +64,18 @@ int main()
                  printf("tu coordenada se encuentra en el cuadrante 3\n");
                  printf("la coordenada de la forma polar (r,θ) es: (%f,%f) \n", r, A4);
                 }
-
+            else if(x==0 && y==0)
+                {
+                 printf("tu coordenada se encuentra en el origen\n");
+                }
+            else if(x==0 && y!=0)
+                {
+                 printf("la coordenada se encuentra en el eje de las ordenadas\n");
+                }
+            else if(x!=0 && y==0);
+                {
+                 printf("la coordenada se encuentra en el eje de las abscisas\n");
+                }
 
 
             printf("la coordenada cartesiana que introduciste en un inicio fue:(%f,%f)\n", x,y);
