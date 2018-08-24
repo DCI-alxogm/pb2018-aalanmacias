@@ -37,45 +37,62 @@ int main()
             printf("introduce unas coordenadas de la forma (x,y)\n");
             scanf("%f" "%f", &x, &y);
             printf("la coordenada que elegiste es: (%f,%f)\n", x,y);
-            
+
             r=sqrt(pow(x,2)+pow(y,2));
             A1=atan(y/x)*(180/3.1415926);
             A2=(atan(y/x)*(180/3.1415926))+180;
             A3=(atan(y/x)*(180/3.1415926))+180;
             A4=(atan(y/x)*(180/3.1415926))+360;
-        
+
             if(x>0 && y>0)
+            {
+                printf("tu coordenada se encuentra en el cuadrante 1\n");
+                printf("la coordenada de la forma polar (r,θ) es: (%f,%f) \n", r, A1);
+            }
+            else
+            {
+                if(x<0 && y>0)
                 {
-                 printf("tu coordenada se encuentra en el cuadrante 1\n");
-                 printf("la coordenada de la forma polar (r,θ) es: (%f,%f) \n", r, A1);
-                } 
-            else if(x<0 && y>0)
-                {
-                 printf("tu coordenada se encuentra en el cuadrante 2\n");
-                 printf("la coordenada de la forma polar (r,θ) es: (%f,%f) \n", r, A2);
+                    printf("tu coordenada se encuentra en el cuadrante 2\n");
+                    printf("la coordenada de la forma polar (r,θ) es: (%f,%f) \n", r, A2);
                 }
-            else if(x<0 && y<0)
+                else
                 {
-                 printf("tu coordenada se encuentra en el cuadrante 3\n");
-                 printf("la coordenada de la forma polar (r,θ) es: (%f,%f) \n", r, A3);
+                    if(x<0 && y<0)
+                    {
+                        printf("tu coordenada se encuentra en el cuadrante 3\n");
+                        printf("la coordenada de la forma polar (r,θ) es: (%f,%f) \n", r, A3);
+                    }
+                    else
+                    {
+                        if(x>0 && y<0)
+                        {
+                            printf("tu coordenada se encuentra en el cuadrante 3\n");
+                            printf("la coordenada de la forma polar (r,θ) es: (%f,%f) \n", r, A4);
+                        }
+                        else
+                        {
+                            if(x==0 && y==0)
+                            {
+                                printf("tu coordenada se encuentra en el origen\n");
+                            }
+                            else
+                            {
+                                if(x==0 && y!=0)
+                                {
+                                    printf("la coordenada se encuentra en el eje de las ordenadas\n");
+                                }
+                                else(x!=0 && y==0);
+                                {
+                                    printf("la coordenada se encuentra en el eje de las abscisas\n");
+                                }
+                            }
+                        }
+                    }
                 }
-            else if(x>0 && y<0)
-                {
-                 printf("tu coordenada se encuentra en el cuadrante 3\n");
-                 printf("la coordenada de la forma polar (r,θ) es: (%f,%f) \n", r, A4);
-                }
-            else if(x==0 && y==0)
-                {
-                 printf("tu coordenada se encuentra en el origen\n");
-                }
-            else if(x==0 && y!=0)
-                {
-                 printf("la coordenada se encuentra en el eje de las ordenadas\n");
-                }
-            else if(x!=0 && y==0);
-                {
-                 printf("la coordenada se encuentra en el eje de las abscisas\n");
-                }
+            }
+
+
 
 
             printf("la coordenada cartesiana que introduciste en un inicio fue:(%f,%f)\n", x,y);
