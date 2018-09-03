@@ -13,8 +13,9 @@ int main()
   char respuesta;
 
    
-while(opcion==1 || opcion==2){  
-        printf("teclear una opcion\n");
+while(opcion==1 || opcion==2)
+ {  
+  printf("teclear una opcion\n");
   printf("(1) para convertir temperaturas\n(2) para convertir coordenadas");
   scanf("%i", &opcion);
  switch(opcion)
@@ -50,7 +51,7 @@ while(opcion==1 || opcion==2){
 }	    
 printf("¿Quieres realizar otra operación\n (1 para si o 3 para no)");   	
 scanf("%i", &opcion); 
- }
+  }
 	 
         
 		   
