@@ -1,0 +1,25 @@
+resultado de la operacion exponencial es:148.413159
+resultado del logaritmo es: 1.609438
+resultado del seno: -0.958924
+resultado del coseno: 0.283662
+resultado de la raiz cuadrada: 2.236068
+resultado de la operacion exponencial es:22026.465795
+resultado del logaritmo es: 2.302585
+resultado del seno: -0.544021
+resultado del coseno: -0.839072
+resultado de la raiz cuadrada: 3.162278
+resultado de la operacion exponencial es:3269017.372472
+resultado del logaritmo es: 2.708050
+resultado del seno: 0.650288
+resultado del coseno: -0.759688
+resultado de la raiz cuadrada: 3.872983
+resultado de la operacion exponencial es:485165195.409790
+resultado del logaritmo es: 2.995732
+resultado del seno: 0.912945
+resultado del coseno: 0.408082
+resultado de la raiz cuadrada: 4.472136
+resultado de la operacion exponencial es:72004899337.385880
+resultado del logaritmo es: 3.218876
+resultado del seno: -0.132352
+resultado del coseno: 0.991203
+resultado de la raiz cuadrada: 5.000000
