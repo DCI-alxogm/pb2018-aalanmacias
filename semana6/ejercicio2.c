@@ -1,4 +1,3 @@
-
 /*Creado por Alan Macías*/
 #include<stdio.h>
 
