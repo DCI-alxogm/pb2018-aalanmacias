@@ -5,8 +5,8 @@
 
 int main()
 {
- float delta, h, integral, x, fdx;
- int p, a, b, n, k, i;
+ float delta, h, integral, x, fdx, a, b;
+ int p, n, k, i;
  
  FILE *fp;
  FILE *resultado;
@@ -15,16 +15,16 @@ int main()
  //se lee del archivo la potencia
  fscanf(fp, "%i", &p);
  //Se lee el intervalo en el que se va a evaluar la funcion 
- fscanf(fp, "%i %i", &a, &b); 
+ fscanf(fp, "%f %f", &a, &b); 
  //Se lee el numero de veces que se va a evaluar y el numero de trapecios para calcular la integral
  fscanf(fp, "%i %i", &n, &k);
 
  fclose(fp);
 
  resultado=fopen("resultado_E1", "w");
- fprintf(resultado, "Valor de X		f(x)		I(x)   \n");
+ fprintf(resultado, "Valor de X		f(x)			I(x)   \n");
  delta=(b-a)/n;
- for(x=a; x<=b; x+=delta){
+ for(x=a; x<b; x+=delta){
 	fdx=pow(x,p);
  	h=(x-a)/k;
  	integral=((pow(a,p)+pow(x,p))/2);
