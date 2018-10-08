@@ -57,7 +57,7 @@ for(e=0; e<9; e++){
 	for(i=0.0; i<=tt; i+=h){
 
 		//Se utiliza un if para solo imprimir datos que sean multiplos de 10, es decir, se imprime uno de cada diez datos.
-		if(count%50==0){
+		if(count%10==0){
                     		 fprintf(RO, "%f,	 %f,	 %f,	 %f,	 %f,	 %f\n", Xi, Yi, Zi, Vxi, Vyi, Vzi);
            	 	}
             		count++;
