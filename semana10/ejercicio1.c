@@ -1,3 +1,4 @@
+/*Programa que entrega valores en un rango de valores con un espaciado especifico en las tres dimenciones ("x", "y" y "z")*/
 #include<stdio.h>
 #include<stdlib.h>
 

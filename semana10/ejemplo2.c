@@ -1,3 +1,4 @@
+/*creado por Alan Macias, segundo programa ejemplo de la semana 10. programa que utiliza los argumentos dados en la terminal para funcionar*/
 #include<stdio.h>
 
 int main(int argc, char *argv[]){
